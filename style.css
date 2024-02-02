@@ -1,0 +1,195 @@
+body {
+    background: hsla(185, 64%, 51%, 1); /* Sets the background color using HSLA values */
+    background: linear-gradient(10deg, hsla(185, 64%, 51%, 1) 28%, hsla(210, 11%, 15%, 1) 60%); /* Sets a linear gradient background */
+    background: -moz-linear-gradient(10deg, hsla(185, 64%, 51%, 1) 28%, hsla(210, 11%, 15%, 1) 60%); /* Sets a linear gradient background for Mozilla Firefox */
+    background: -webkit-linear-gradient(10deg, hsla(185, 64%, 51%, 1) 28%, hsla(210, 11%, 15%, 1) 60%); /* Sets a linear gradient background for WebKit browsers */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#30C5D2", endColorstr="#212529", GradientType=1 ); /* Sets a linear gradient background for Internet Explorer */
+    color: white; /* Sets the text color to white */
+    font-family: Goldman; /* Sets the font family for the body */
+}
+
+#logo{
+    color: #30C5D2; /* Sets the text color for the element with the ID "logo" */
+    font-size: 65px; /* Sets the font size for the element with the ID "logo" */
+    font-family: Rowdies; /* Sets the font family for the element with the ID "logo" */
+}
+
+#nav-logo{
+    color: #30C5D2; /* Sets the text color for the element with the ID "nav-logo" */
+    font-size: 35px; /* Sets the font size for the element with the ID "nav-logo" */
+    font-family: Rowdies; /* Sets the font family for the element with the ID "nav-logo" */
+}
+
+#nav-section {
+    background-color: #212529; /* Sets the background color for the element with the ID "nav-section" */
+}
+
+.fontColor{
+    color: #30C5D2; /* Sets the text color for elements with the class "fontColor" */
+    font-size: 18px; /* Sets the font size for elements with the class "fontColor" */
+}
+
+.fontColor:hover{
+    color: white; /* Sets the text color on hover for elements with the class "fontColor" */
+}
+
+#bg{
+    background-color: #30C5D2; /* Sets the background color for the element with the ID "bg" */
+}
+
+#bg:hover{
+    background-color: white; /* Sets the background color on hover for the element with the ID "bg" */
+    color: #212529; /* Sets the text color on hover for the element with the ID "bg" */
+}
+
+.container{
+    padding-top: 4px; /* Sets the top padding for elements with the class "container" */
+    padding-bottom: 4px; /* Sets the bottom padding for elements with the class "container" */
+}
+
+.hero-text{
+    color: white; /* Sets the text color for elements with the class "hero-text" */
+    font-size: 23px; /* Sets the font size for elements with the class "hero-text" */
+}
+
+.hero-button{
+    margin-top: 20px; /* Sets the top margin for elements with the class "hero-button" */
+    font-size: 23px; /* Sets the font size for elements with the class "hero-button" */
+    color: white; /* Sets the text color for elements with the class "hero-button" */
+    background-color: #30C5D2; /* Sets the background color for elements with the class "hero-button" */
+    padding: 10px 20px; /* Sets the padding for elements with the class "hero-button" */
+}
+
+.hero-button:hover{
+    color: #30C5D2; /* Sets the text color on hover for elements with the class "hero-button" */
+    background-color: #ffffff; /* Sets the background color on hover for elements with the class "hero-button" */
+    padding: 10px 20px; /* Sets the padding on hover for elements with the class "hero-button" */
+}
+
+#hero-section{
+    background-color: #212529; /* Sets the background color for the element with the ID "hero-section" */
+    padding-bottom: 100px; /* Sets the bottom padding for the element with the ID "hero-section" */
+}
+
+#footer-section{
+    background-color: #212529; /* Sets the background color for the element with the ID "footer-section" */
+    color: white; /* Sets the text color for the element with the ID "footer-section"*/
+
+}
+
+.footer-text{
+     text-align: center; /* Sets the text alignment for elements with the class "footer-text" */
+     color: #30C5D2; /* Sets the text color for elements with the class "footer-text" */
+     font-size: 21px; /* Sets the font size for elements with the class "footer-text" */
+}
+
+.footer-text:hover{
+    text-align: center; /* Sets the text alignment on hover for elements with the class "footer-text" */
+    color: #ffffff; /* Sets the text color on hover for elements with the class "footer-text" */
+    font-size: 21.05px; /* Sets the font size on hover for elements with the class "footer-text" */
+}
+
+.px-2{
+    color: #ffffff; /* Sets the text color for elements with the class "px-2" */
+    font-size: 20px; /* Sets the font size for elements with the class "px-2" */
+}
+
+.px-2:hover{
+    color: #30C5D2; /* Sets the text color on hover for elements with the class "px-2" */
+    font-size: 21.5px; /* Sets the font size on hover for elements with the class "px-2" */
+}
+
+.contact{
+    background-color: #212529; /* Sets the background color for elements with the class "contact" */
+}
+
+.bg-aboutus{
+    background-color: #30C5D2; /* Sets the background color for elements with the class "bg-aboutus" */
+}
+
+.lead{
+    padding-left: 100px; /* Sets the left padding for elements with the class "lead" */
+    padding-right: 100px; /* Sets the right padding for elements with the class "lead" */
+    font-size: 24px; /* Sets the font size for elements with the class "lead" */
+}
+
+.aboutus-heading{
+    text-align: center; /* Sets the text alignment for elements with the class "aboutus-heading" */
+    color: #000000; /* Sets the text color for elements with the class "aboutus-heading" */
+    font-weight: bold; /* Sets the font weight for elements with the class "aboutus-heading" */
+    font-size: 58px; /* Sets the font size for elements with the class "aboutus-heading" */
+    margin-top: 10px; /* Sets the top margin for elements with the class "aboutus-heading" */
+    margin-bottom: 30px; /* Sets the bottom margin for elements with the class "aboutus-heading" */
+}
+
+.aboutus-img{
+    width: 650px; /* Sets the width for elements with the class "aboutus-img" */
+    align-items: center; /* Sets the alignment for elements with the class "aboutus-img" */
+    display: block; /* Sets the display property for elements with the class "aboutus-img" */
+    margin-left: auto; /* Sets the left margin for elements with the class "aboutus-img" */
+    margin-right: auto; /* Sets the right margin for elements with the class "aboutus-img" */
+    margin-bottom: 50px; /* Sets the bottom margin for elements with the class "aboutus-img" */
+    margin-top: 50px; /* Sets the top margin for elements with the class "aboutus-img" */
+    box-shadow: 8px 8px 7px 4px rgba(0, 0, 0, 0.614); /* Sets the box shadow for elements with the class "aboutus-img" */
+    border: 80px; /* Sets the border for elements with the class "aboutus-img" */
+}
+
+.my-5{
+    padding-top: 70px; /* Sets the top padding for elements with the class "my-5" */
+}
+
+.contactus-div{
+    padding-left: 400px; /* Sets the left padding for elements with the class "contactus-div" */
+    padding-right: 400px; /* Sets the right padding for elements with the class "contactus-div" */
+}
+
+#contact{
+    background-color: #30C5D2; /* Sets the background color for the element with the ID "contact" */
+}
+
+.btn-color{
+    background-color: #30C5D2; /* Sets the background color for elements with the class "btn-color" */
+}
+
+.contact-form{
+    background-color: #212529; /* Sets the background color for elements with the class "contact-form" */
+    border: 2px solid white; /* Sets the border for elements with the class "contact-form" */
+}
+
+.contact-form small{
+color: #30C5D2; /* Sets the text color for the <small> element within elements with the class "contact-form" */
+}
+.ourproducts-heading{
+    color: white; /* Sets the text color to white for elements with the class "ourproducts-heading" */
+    font-weight: bold; /* Sets the font weight to bold for elements with the class "ourproducts-heading" */
+    font-size: 50px; /* Sets the font size to 50 pixels for elements with the class "ourproducts-heading" */
+}
+
+#ourproducts-section{
+    background-color: #212529; /* Sets the background color to #212529 for the element with the ID "ourproducts-section" */
+    color: #ffffff; /* Sets the text color to white for the element with the ID "ourproducts-section" */
+    padding-top: 80px; /* Sets the top padding to 80 pixels for the element with the ID "ourproducts-section" */
+    padding-bottom: 50px; /* Sets the bottom padding to 50 pixels for the element with the ID "ourproducts-section" */
+}
+
+.ourproducts-icons{
+    font-size: 40px; /* Sets the font size to 40 pixels for elements with the class "ourproducts-icons" */
+    background-color: #30C5D2; /* Sets the background color to #30C5D2 for elements with the class "ourproducts-icons" */
+    padding: 10px; /* Sets the padding to 10 pixels for elements with the class "ourproducts-icons" */
+    border-radius: 44px; /* Sets the border radius to 44 pixels for elements with the class "ourproducts-icons" */
+    margin-bottom: 20px; /* Sets the bottom margin to 20 pixels for elements with the class "ourproducts-icons" */
+}
+
+.ourproducts-h3{
+    font-size: 35px; /* Sets the font size to 35 pixels for elements with the class "ourproducts-h3" */
+    font-weight: 500; /* Sets the font weight to 500 for elements with the class "ourproducts-h3" */
+    color: #30C5D2; /* Sets the text color to #30C5D2 for elements with the class "ourproducts-h3" */
+}
+
+.ourproducts-p{
+    font-size: 17px; /* Sets the font size to 17 pixels for elements with the class "ourproducts-p" */
+}
+
+.rounded-3{
+    border: #ffffff solid 2px; /* Sets the border to a 2-pixel solid white (#ffffff) for elements with the class "rounded-3" */
+}
